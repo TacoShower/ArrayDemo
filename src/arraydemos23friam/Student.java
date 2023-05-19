@@ -6,6 +6,7 @@ public class Student {
     // comment added at 9:27am
     private String sId;
     private String sName;
+    private String address;
 
     public Student(String sId, String sName) {
         this.sId = sId;
@@ -27,7 +28,12 @@ public class Student {
     public void setsName(String sName) {
         this.sName = sName;
     }
-    
-    
-    
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
