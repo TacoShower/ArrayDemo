@@ -3,7 +3,7 @@ package arraydemos23friam;
 
 import java.util.Scanner;
 
-
+#Added Comment on 05/26/2023
 
 public class ArrayDemoS23FriAM {
 
